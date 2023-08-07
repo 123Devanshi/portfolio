@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&family=Ubuntu:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+body{
+    background-color: rgba(4, 0, 11, 0.923);
+    color: white;
+}
+span{
+    color: #f9004d;
+}
+.hero{
+    height: 30vh;
+    width: 100%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo{
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+nav ul li a:hover{
+color: aqua;
+transition: .4s;
+}
+.btn{
+    color: white;
+    background-color: #f9004d;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 8px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.btn:hover{
+    transform: scale(1.2);
+}
+.content{
+    translate: 180px 30px;
+}
+h1{
+    margin: 20px 0 20px;
+    font-size: 75px;
+}
+h3{
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+h4{
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.interact form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+.interact form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid #f9004d;
+    outline: none;
+    border-radius: 30px;
+}
+.interact form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: #f9004d;
+    box-shadow: 0px 0px 8px;
+    color: white;
+    top: 6px;
+    right: 6px;
+    cursor: pointer;
+}
+
+.about{
+    width: 100%;
+    padding: 100px 0px;
+}
+.about img{
+    height: auto;
+    width: 375px;
+    border: 5px solid #c6b843cc ;
+    box-shadow: 0 0 15px;
+}
+.about-text{
+    width: 550px;
+}
+.main{
+    max-width: 95%;
+    margin: 0 auto;
+    padding-top: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text h2,.ach-main h2,.skills h2{
+    font-size: 75px;
+    margin-bottom: 20px;
+}
+.about-text h5{
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+.about-text p{
+    color: #c6b843cc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+.ach-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 40px;
+}
+
+.ach1,.ach2,.ach3,.ach4{
+    padding: 25px;
+    font-size: 30px;
+    color: rgb(27, 25, 28);
+    background-color: rgb(149, 255, 255);
+    border: 5px solid #f9004d;
+    border-radius: 20px;
+    margin: 10px;
+    box-shadow: 0 0 5px white;
+}
+.skills{
+    text-align: center;
+    margin-top: 100px;
+}
+.skills-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    color: #fcfc;
+}
+.div1,.div2{
+    margin: 20px 100px;
+    font-size: 30px;
+}
+
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-left h2{
+    font-size: 70px;
+}
+.contact-left{
+    flex-basis: 35%;
+}
+.contact-right{
+    flex-basis: 40%;
+}
+.contact-left p{
+    margin-top: 30px;
+}
+.contact-left p i {
+    color: #ff004f;
+    margin-right: 15px;
+    font-size: 25px;
+}
+.social-icons{
+    margin-top: 30px;
+}
+.social-icons a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: #ababab;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+.social-icons a:hover{
+    color: #ff004f;
+    transform: translateY(-5px);
+}
+.btn2{
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 8px;
+    font-size: 20px;
+}
+.contact-right form{
+    width: 100%;
+}
+.contact-right input, form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
+.copy{
+    text-align: center;
+    padding: 15px 0;
+    background: #262626;
+    font-weight: 300;
+    margin-top: 20px;
+}
